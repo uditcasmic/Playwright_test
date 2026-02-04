@@ -1,0 +1,26 @@
+{
+  "name": "playwright-bdd-test",
+  "version": "1.0.0",
+  "description": "Playwright + Cucumber.js BDD framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.js --require step-definitions/**/*.js --require features/**/*.js --require setup/**/*.js --format html:./reports/cucumber_report.html --format json:./reports/cucumber_report.json --format summary --format @cucumber/pretty-formatter --retry 0"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@cucumber/pretty-formatter": "^2.1.0",
+    "@playwright/test": "^1.55.0",
+    "chai": "^6.0.1",
+    "dotenv": "^16.6.1",
+    "playwright": "^1.55.0",
+    "pretty-format": "^30.0.5"
+  }
+}

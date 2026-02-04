@@ -1,0 +1,263 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-on-the-page;create-an-employee-on-the-orangehrm-pim-and-then-verify-in-the-admin-panel",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create an Employee on the OrangeHRM PIM and then verify in the Admin panel",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 743958899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Home screen",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10827391800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I navigate to the Dashboard page",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3043741600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on the \"PIM\" option from the Sidebar",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1256356700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click on the \"Add\" button",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1417315600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill the employee details First Name \"John\" and Last Name \"David\"",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 738183699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I fill in the employee id",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143449799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I switch on the toggle button",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197689800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I fill in random username and password",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528844700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the \"Save\" button",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190837800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the employee name \"John David\"",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6561144400
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Nationality",
+                      "Marital Status",
+                      "Date of Birth"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Indian",
+                      "Single",
+                      "1998-02-02"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I select the options for the Employee Information",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879899600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I click on the \"Admin\" option from the Sidebar",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1095846699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see the generated username in the table",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 974754099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I log out from the application",
+            "match": {
+              "location": "step-definitions\\OrangeHRM Step definition\\LoginPageStep.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1429502100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 90502200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LogInModule",
+            "line": 1
+          },
+          {
+            "name": "@OrangeHRMLogin",
+            "line": 1
+          },
+          {
+            "name": "@TC_01",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-on-the-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login on the Page",
+    "tags": [
+      {
+        "name": "@LogInModule",
+        "line": 1
+      },
+      {
+        "name": "@OrangeHRMLogin",
+        "line": 1
+      }
+    ],
+    "uri": "features\\OrangeHRM Scenarios\\OrangeHRMLoginStep.feature"
+  }
+]
