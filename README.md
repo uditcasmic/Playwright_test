@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an end-to-end automation framework built with:
+This project is an end-to-end automation framework built with following:
 Playwright – Browser automation
 Cucumber.js – BDD framework for writing feature files
 Chai – Assertions
