@@ -48,7 +48,7 @@ setup/ → Configurations
 
 Clone the Repository
 
--git clone https://github.com/testorgqa-cpu/Playwright
+-git clone <https://github.com/testorgqa-cpu/Playwright>
 -Install Dependencies
 npm install
 -Install Playwright Browsers
